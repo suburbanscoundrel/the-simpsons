@@ -29,16 +29,16 @@ function draw() {
   stroke(255);
   textAlign(CENTER, CENTER);
   if (mando === false) {
-    textFont(meFont);
-    textSize(14);
+//     textFont(meFont);
+    textSize(12);
     fill(255,0,0);
     text(textSelect, mouseX, mouseY);
   }
 
   if (mando === true) {
     fill(0,0,255);
-    textSize(21);
-    textFont(laoLaoFont);
+//     textSize(20);
+//     textFont(laoLaoFont);
     text('什么？ 听不懂你', mouseX, mouseY);
   }
   print(textSelect);
